@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+// sign in
+@import 'assets/sass/theme';
+
+body,
+.mat-body, .mat-body-1, .mat-typography{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+}
+.signup-bg {
+  background-image: url(../src/assets/images/signup-bg.jpg);
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  background-size: contain;
+  background-position: center;
+}
+.mat-sidenav.mat-drawer-opened~.mat-drawer-content.mat-sidenav-content .mat-toggle-right {
+  left: -170px;
+  top: 0;
+}
+
+.mat-drawer-content.mat-sidenav-content .mat-toggle-right {
+  position: absolute;
+  left: 1rem;
+  top: -3.8rem;
+  z-index: 9;
+}
+.mat-drawer-container {
+  background-color: #f1f6fa;
+  height: 100vh;
+}
+// header
+.example-header * {
+  z-index: 999;
+}
+.example-header:before {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  height: 100%;
+  content: "";
+  box-shadow: 0 0 14px -8px rgb(0 0 0 / 50%) !important;
+}
+.logo-img img {
+  max-width: 160px;
+}
+body .shadow{
+  box-shadow: 0 0 14px -10px rgb(0 0 0 / 50%) !important;
+}
+.mat-drawer {
+  min-width: 15rem !important;
+  border-right: 0 !important;
+}
+.mat-drawer,
+.mat-drawer-transition .mat-drawer-content,
+.mat-drawer-container{
+  overflow: inherit !important;
+}
+.toggle-btn{
+  position: absolute !important;
+  top: -3.9rem;
+  left: 1rem;
+  z-index: 999;
+}
+.mat-list-base .mat-list-item .material-icons-outlined {
+  color: #adadad;
+  font-size: 1.1rem;
+}
+.mat-nav-list a.active {
+  background: blue;
+}

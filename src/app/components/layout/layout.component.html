@@ -1,0 +1,28 @@
+<app-header></app-header>
+<div class="example-container" [class.example-is-mobile]="mobileQuery.matches">    
+    <mat-sidenav-container class="example-sidenav-container container-fluid px-0"
+                           [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+      <mat-sidenav class="col-md-2 col-lg-2" opened="true" #snav [mode]="mobileQuery.matches ? 'over' : 'side'"
+                   [fixedInViewport]="mobileQuery.matches" fixedTopGap="56" fullscreen>
+                   <div class="d-flex justify-content-end">
+                    <button class="toggle-btn" mat-icon-button (click)="snav.toggle()">
+                      <img src="../../../assets/images/hamburger_icon.svg" alt="" />
+                    </button>
+                  </div>
+                   <app-sidebar></app-sidebar>   
+      </mat-sidenav>
+  
+      <mat-sidenav-content>
+        <div class="container-fluid h-100">
+          <div class="row">
+            <div class="col-md-12 p-4">
+              <button class="mat-toggle-right" mat-icon-button (click)="snav.toggle()">
+                <img src="../../../assets/images/hamburger_icon.svg" alt="" />
+              </button>
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+        </div>    
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>

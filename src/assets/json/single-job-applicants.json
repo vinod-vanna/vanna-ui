@@ -1,0 +1,140 @@
+{
+  "jobDetails": {
+    "id": 115495060,
+    "title": "Customer Service - Job Share",
+    "status": "Active",
+    "createdAt": "2021-07-10",
+    "updatedAt": "2021-07-10",
+    "postedBy": "Employer Name",
+    "location": {
+      "city": "Portland",
+      "state": "ME"
+    },
+    "stages": {
+      "views": 3,
+      "new": 3,
+      "inReview": 1,
+      "interview": 0,
+      "offered": 0,
+      "hired": 0,
+      "leads": 0
+    },
+    "categories": [{
+      "id": "qa-quality-control"
+    }]
+  },
+  "applicants": [{
+
+      "candidate": {
+        "id": 201811,
+        "firstName": "Colleen",
+        "lastName": "Strickler",
+        "isInTalentNetwork": true,
+        "currentTitle": null,
+        "isAvailable": false,
+        "status": "active",
+        "stage": "Leads",
+        "location": {
+          "id": "florida",
+          "type": "state",
+          "city": "New Gloucester",
+          "state": "ME",
+          "zip": null
+        },
+        "addedAt": "2021-07-15",
+        "tags": [],
+        "username": "raghu.seeker",
+        "phone": "98734593745",
+        "email": "raghu@yopmail.com",
+        "coverLetter": null,
+        "createdAt": "2021-05-20",
+        "updatedAt": "2021-05-20T",
+        "source": "Converted Lead"
+      }
+    },
+    {
+      "candidate": {
+        "id": 201812,
+        "firstName": "Joel",
+        "lastName": "Huntt",
+        "isInTalentNetwork": true,
+        "currentTitle": null,
+        "isAvailable": false,
+        "status": "active",
+        "stage": "Hired",
+        "location": {
+          "id": "florida",
+          "type": "state",
+          "city": "Limington",
+          "state": "ME",
+          "zip": null
+        },
+        "addedAt": "2021-07-15",
+        "tags": [],
+        "username": "raghu.seeker2",
+        "phone": "982323123",
+        "email": "raghu@vanna.com",
+        "coverLetter": null,
+        "createdAt": "2021-05-20",
+        "updatedAt": "2021-05-20",
+        "source": "Organic"
+      }
+    },
+    {
+      "candidate": {
+        "id": 201812,
+        "firstName": "Rick",
+        "lastName": "Perron",
+        "isInTalentNetwork": true,
+        "currentTitle": null,
+        "isAvailable": false,
+        "status": "active",
+        "stage": "Offered",
+        "location": {
+          "id": "florida",
+          "type": "state",
+          "city": "Scarborough",
+          "state": "ME",
+          "zip": null
+        },
+        "addedAt": "2021-07-15",
+        "tags": [],
+        "username": "raghu.seeker3",
+        "phone": "982323123",
+        "email": "raghu@vanna3.com",
+        "coverLetter": null,
+        "createdAt": "2021-05-20",
+        "updatedAt": "2021-05-20",
+        "source": "Converted Lead"
+      }
+    },
+    {
+      "candidate": {
+        "id": 201812,
+        "firstName": "Sarah",
+        "lastName": "Legeyt",
+        "isInTalentNetwork": true,
+        "currentTitle": null,
+        "isAvailable": false,
+        "status": "active",
+        "stage": "Inreview",
+        "location": {
+          "id": "florida",
+          "type": "state",
+          "city": "Gray",
+          "state": "ME",
+          "zip": null
+        },
+        "addedAt": "2021-07-15",
+        "tags": [],
+        "username": "raghu.seeker4",
+        "phone": "982323123",
+        "email": "raghu@vanna4.com",
+        "coverLetter": null,
+        "createdAt": "2021-05-20",
+        "updatedAt": "2021-05-20",
+        "source": "Organic"
+      }
+    }
+  ]
+}

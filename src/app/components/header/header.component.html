@@ -1,0 +1,31 @@
+<div class="example-header py-4 shadow position-relative">
+    <section class="container-fluid  px-md-4">
+        <div class="logo row align-items-center">
+            <div class="col-sm-9 col-md-9 col-lg-9">
+                <div class="logo-img mr-auto ps-5">
+                    <img src="{{logoUrl}}" alt="VANNA" />
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="d-flex justify-content-end align-items-center">                      
+                    <span  [matMenuTriggerFor]="menu" class="d-flex justify-content-end align-items-center">  <span class="material-icons me-2 user-icon text-muted">
+                        account_circle
+                    </span> <span>Ryan Alridge</span></span>
+                    <mat-menu #menu="matMenu">
+                        <button mat-menu-item>User Name Here</button>
+                        <button mat-menu-item>Edit Profile</button>
+                        <button mat-menu-item>Billing Info</button>
+                        <button mat-menu-item>Purchase History</button>
+                        <button mat-menu-item>Manage Users</button>
+                        <button mat-menu-item routerLink="/login">Log out</button>
+                    </mat-menu>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 pl-md-0">
+              <!-- <app-breadcrumb></app-breadcrumb> -->
+            </div>
+        </div>
+    </section>
+</div>

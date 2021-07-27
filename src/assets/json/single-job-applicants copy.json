@@ -1,0 +1,27 @@
+["jobDetails": {
+    "id": 115495060,
+    "title": "Test job 3",
+    "status": "Active",
+    "createdAt": "2021-07-10",
+    "updatedAt": "2021-07-10",
+    "postedBy": "Employer Name",
+    "location": {
+        "city": "Miami",
+        "state": "FL"
+    },
+    "stages": {
+        "views": 3,
+        "new": 3,
+        "inReview": 1,
+        "interview": 0,
+        "offered": 0,
+        "hired": 0,
+        "leads": 0
+    },
+    "categories": [
+        {
+            "id": "qa-quality-control"
+        }
+    ]
+}
+]

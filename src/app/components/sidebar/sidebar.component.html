@@ -1,0 +1,11 @@
+<mat-nav-list>
+    <div *ngFor="let menuitem of menuitems">
+        <a mat-list-item [ngClass]="{ 'sub-menu-link': menuitem.isSubMenu == true }" [routerLink]="[menuitem.route]"
+        routerLinkActive="list-item-active" [routerLink]="menuitem.route">
+           
+                <span class="material-icons-outlined me-2">
+                    {{menuitem.icon}}
+                    </span>
+                {{menuitem.adminlink}}</a>
+    </div>
+</mat-nav-list>

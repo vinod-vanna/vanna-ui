@@ -1,0 +1,62 @@
+[
+    {
+        "adminlink": "Dashboard",
+        "isSubMenu": false,
+        "icon": "home",
+        "route": "/vannainfo/dashboard"
+    },
+    {
+        "adminlink": "Schedules",
+        "isSubMenu": false,
+        "icon": "date_range",
+        "route": "."
+    },
+    {
+        "adminlink": "Tasks Lists",
+        "isSubMenu": false,
+        "icon": "fact_check",
+        "route": "."
+    },
+    {
+        "adminlink": "Invoices",
+        "isSubMenu": false,
+        "icon": "card_travel",
+        "route": "."
+    },
+    {
+        "adminlink": "Mail",
+        "isSubMenu": false,
+        "icon": "mail",
+        "route": "."
+    },
+    {
+        "adminlink": "Holiday Plans",
+        "isSubMenu": false,
+        "icon": "flight_takeoff",
+        "route": "."
+    },
+    {
+        "adminlink": "Stastics",
+        "isSubMenu": false,
+        "icon": "trending_up",
+        "route": "/vannainfo/singlejob"
+    },
+    {
+        "adminlink": "Reports",
+        "isSubMenu": false,
+        "icon": "description",
+        "route": "."
+    },
+    {
+        "adminlink": "Settings",
+        "isSubMenu": false,
+        "icon": "settings",
+        "route": "."
+    },    
+    {
+        "adminlink": "Log out",
+        "isSubMenu": false,
+        "icon": "logout",
+        "route": "/vannainfo"
+    }
+  ]
